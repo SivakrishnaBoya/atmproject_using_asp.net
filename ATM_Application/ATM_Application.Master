@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ATM_Application.master.cs" Inherits="ATM_Application.ATM_Application" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .navbar{
+           background-color:black;
+           font-size:20px;
+        }
+      
+       .body{
+         background-image:url('Images/Bgrd.jpg');
+        }
+        .auto-style2 {
+            font-size: x-large;
+        }
+        .auto-style3 {
+            text-align: center;
+        }
+        .navbar:hover{
+            background-color:red;
+        }
+       
+        
+    </style>
+</head>
+<body class="body">
+    <form id="form1" runat="server">
+        <div>
+            <table class="auto-style1">
+                <tr >
+                    <td>
+                        
+                        <h1 class="auto-style3"><strong>
+                            <asp:Label ID="Label1" runat="server" CssClass="auto-style2" ForeColor="#FF0066" Text="ATM Application"></asp:Label>
+                            </strong></h1>
+                        <p class="auto-style3">&nbsp;</p>
+                        
+                    </td>
+                </tr>
+                <tr >
+                    <td>
+ <div class="navbar">
+
+  <a class="active" href="HomePage.aspx">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="AboutUs.aspx">About Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="ContactUs.aspx" >Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="LogIn.aspx">LogIn</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+     <a href="Register.aspx">SignUp</a><br />
+     <br />
+&nbsp;</div>      
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <p>
+                </p>
+            </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Copyright @ 2023&nbsp;&nbsp;&nbsp;&nbsp; ATMApplication&nbsp; All Belogs to Respective Owners</td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>

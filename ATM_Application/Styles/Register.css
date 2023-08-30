@@ -1,0 +1,40 @@
+﻿.auto-style5 {
+	width: 50%;
+	height: 80%;
+	background-image: url('Images/Register.jpg');
+	display: flex;
+	justify-content: center;
+	margin-left: 250px;
+	margin-right: 250px;
+	align-content: center;
+	border-radius: 50px;
+	color: #47342f;
+}
+
+.Login {
+	width: 50%;
+	height: 80%;
+	background-image: url('Images/LogIn.jpg');
+}
+	.auto-style6 {
+	width: 280px;
+}
+
+.auto-style7 {
+	font-weight: bold;
+}
+
+.auto-style8 {
+	width: 280px;
+	height: 26px;
+}
+
+.auto-style9 {
+	height: 26px;
+}
+
+.auto-style10 {
+	width: 61%;
+	height: 100%;
+	border-radius: 0px 25px;
+}
